@@ -14,7 +14,7 @@ elasticsearch:
   restart: always
 
 postgres:
-  image: postgres
+  image: postgres:latest
   environment:
     POSTGRES_USER: postgres
     POSTGRES_PASSWORD: something
